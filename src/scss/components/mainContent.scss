@@ -1,0 +1,32 @@
+.mainContent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__texts {
+    padding: 2em;
+    width: fit-content;
+    & .question {
+      font-size: 2rem;
+    }
+  }
+
+  &__navigations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    & button {
+      margin-top: 1em;
+      padding: 1em 2em;
+      border-style: none;
+      border: 2px solid black;
+    }
+
+    & small {
+      margin: 1em;
+    }
+  }
+}

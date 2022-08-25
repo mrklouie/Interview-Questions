@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;700;800&family=Merriweather:wght@400;900&family=Montserrat:wght@100;300;400;500;700;800&family=Poppins:wght@400;500;700;800&family=Raleway:wght@400;700;800&display=swap");
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+}
+
+body {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+.mainContent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainContent__texts {
+  padding: 2em;
+  width: fit-content;
+}
+.mainContent__texts .question {
+  font-size: 2rem;
+}
+.mainContent__navigations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mainContent__navigations button {
+  margin-top: 1em;
+  padding: 1em 2em;
+  border-style: none;
+  border: 2px solid black;
+}
+.mainContent__navigations small {
+  margin: 1em;
+}
+
+@media (max-width: 480px) {
+  * {
+    font-size: 1rem !important;
+  }
+}/*# sourceMappingURL=styles.css.map */

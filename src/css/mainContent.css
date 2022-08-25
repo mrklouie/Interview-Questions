@@ -1,0 +1,29 @@
+.mainContent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainContent__texts {
+  padding: 2em;
+  width: fit-content;
+}
+.mainContent__texts .question {
+  font-size: 2rem;
+}
+.mainContent__navigations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mainContent__navigations button {
+  margin-top: 1em;
+  padding: 1em 2em;
+  border-style: none;
+  border: 2px solid black;
+}
+.mainContent__navigations small {
+  margin: 1em;
+}/*# sourceMappingURL=mainContent.css.map */
